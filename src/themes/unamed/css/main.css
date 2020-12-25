@@ -2,6 +2,10 @@
     font-family: BookAntiqua;
     src: url("../fonts/BookAntiqua.ttf");
 }
+@font-face {
+    font-family: MyriadProBold;
+    src: url("../fonts/MYRIADPRO-BOLD.OTF");
+}
 body {
     background-image: url("../images/body-bg-up.png");
     background-repeat: no-repeat;
@@ -43,3 +47,43 @@ li.nav-item{
     background-image: linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(92,86,83,1) 100%); 
 }
 
+#download-client span, #download-patch span {
+	background-image: url("../images/button-green.png");
+	width: 100%;
+	display: inline-block;
+	background-size: 100%;
+	height: 130px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 41px;
+    font-family: MyriadProBold;
+    text-transform: uppercase;
+    color: #cab294 !important;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+@media (min-width: 992px) {
+    #download-client{
+        padding-right: 0px;
+        padding-left: 100px;
+        margin-right: -70px;
+        margin-top: 10px;
+    }
+
+    #server-status-orb{
+        padding-right: 0px;
+        padding-left: 0px;
+        z-index: 1;
+    }
+
+    #download-patch{
+        padding-left: 0px;
+        padding-right: 100px;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+}
