@@ -1,0 +1,45 @@
+@font-face {
+    font-family: BookAntiqua;
+    src: url("../fonts/BookAntiqua.ttf");
+}
+body {
+    background-image: url("../images/body-bg-up.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#top-menu{
+    background-image: url("../images/top-menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar{
+    padding: .3rem 1rem 1.7rem 1rem;
+}
+li.nav-item{
+    font-family: BookAntiqua;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*
+    -webkit-text-stroke: 1px #2d2220;
+    -webkit-text-fill-color: white;
+    */
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    line-height: 2.25;
+}
+.nav-link{
+    color: #635550 !important;
+}
+.active .nav-link{
+    border-right: 1px solid #473c35;
+    border-left: 1px solid #473c35;
+}
+.active .nav-link, .nav-link:hover{
+    color: #ebdbca !important;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(92,86,83,1) 100%); 
+}
+
