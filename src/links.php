@@ -33,7 +33,7 @@ foreach($dir as $fileInfo){
 		}
 	}
 }
-$pagina = !empty(trim($_GET["icp"])) ? trim($_GET["icp"]) : $home;
+$pagina = !empty(trim($_GET["icp"] ?? "")) ? trim($_GET["icp"]) : $home;
 if($pagina == "painel"){
 	$get = array();
 	$get_url = explode("&amp;", $_SERVER["REQUEST_URI"]);
