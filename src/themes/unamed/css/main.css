@@ -10,7 +10,7 @@ body{
     src: url("../fonts/MYRIADPRO-BOLD.OTF");
 }
 body {
-    background-image: url("../images/body-bg-up.png");
+    background-image: url("../images/body-bg-up.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
