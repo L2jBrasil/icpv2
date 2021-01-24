@@ -239,6 +239,22 @@ table.table tr{
 	margin-top: 450px;
 }
 
+.news-box {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+.news-box img {
+	position: absolute;
+	top: -1.5em;
+	left: -1.5em;
+	max-width: 3em;
+}
+
+.news-date{
+	color: #8b7568;
+}
+
 @media (min-width: 1140px) {
 	body {
 	    background-size: 100%;
