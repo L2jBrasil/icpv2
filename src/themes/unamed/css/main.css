@@ -252,6 +252,25 @@ table.table tr{
 	color: #8b7568;
 }
 
+#footer {
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 120px;
+	position: relative;
+}
+
+#footer img {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#footer p {
+	margin-top: 25%;
+}
+
 @media (min-width: 1140px) {
 	body {
 	    background-size: 100%;
